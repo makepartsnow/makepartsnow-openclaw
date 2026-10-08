@@ -31,6 +31,7 @@ This package is configuration only: no code runs on your machine.
 | `.mcp.json` | One MCP server, `make-parts-now`: `https://makepartsnow.com/mcp/assistant?client=openclaw` |
 | `skills/quote-parts/SKILL.md` | How the agent should use the tools |
 | `openclaw.plugin.json` | ClawHub listing metadata |
+| `package.json` | Package name and version only (no scripts or dependencies) |
 | `assets/icon.png` | Icon |
 
 The plugin connects only to makepartsnow.com. `?client=openclaw` just labels the requests as coming from OpenClaw. The tools appear as `make-parts-now__quote_part` and so on. OpenClaw's `coding` and `messaging` tool profiles include them; with another profile or an allowlist, allow `bundle-mcp` or the tool names.
