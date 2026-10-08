@@ -10,7 +10,7 @@ openclaw plugins install clawhub:@makepartsnow/make-parts-now
 
 OpenClaw asks you to approve what the plugin adds: one skill and one MCP server, no code. If the install stops with "requires capability consent", run it again with `--accept-capabilities`. Start a new session after installing.
 
-Needs OpenClaw 2026.8.1 or later, the first version that connects to HTTP MCP servers from a plugin; older versions refuse the install and ask you to upgrade. Tested with OpenClaw 2026.9.9.
+Needs OpenClaw 2026.8.1 or later, the first version that connects to HTTP MCP servers from a plugin. Older versions install it, but the agent won't have the quoting tools. Tested with OpenClaw 2026.9.9.
 
 ## What it does
 
@@ -33,7 +33,7 @@ This package is configuration only: no code runs on your machine.
 | `.mcp.json` | One MCP server, `make-parts-now`: `https://makepartsnow.com/mcp/assistant?client=openclaw` |
 | `skills/quote-parts/SKILL.md` | How the agent should use the tools |
 | `openclaw.plugin.json` | ClawHub listing metadata |
-| `package.json` | Package name, version and the minimum OpenClaw version (no scripts or dependencies) |
+| `package.json` | Package name and version only (no scripts or dependencies) |
 | `assets/icon.png` | Icon |
 
 The plugin connects only to makepartsnow.com. `?client=openclaw` just labels the requests as coming from OpenClaw. The tools appear as `make-parts-now__quote_part` and so on. OpenClaw's `coding` and `messaging` tool profiles include them; with another profile or an allowlist, allow `bundle-mcp` or the tool names.
