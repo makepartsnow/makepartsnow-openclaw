@@ -1,6 +1,6 @@
 {
   "name": "make-parts-now",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Quote and order custom 3D printed and CNC machined parts from your CAD files with Make Parts Now.",
   "author": {
     "name": "Make Parts Now",
@@ -8,7 +8,7 @@
     "url": "https://makepartsnow.com"
   },
   "homepage": "https://makepartsnow.com/developers#ai-assistants",
-  "repository": "https://github.com/ngisvold/makepartsnow-openclaw",
+  "repository": "https://github.com/makepartsnow/makepartsnow-openclaw",
   "license": "MIT",
   "keywords": ["3d printing", "cnc machining", "custom parts", "manufacturing", "quote", "cad"]
 }

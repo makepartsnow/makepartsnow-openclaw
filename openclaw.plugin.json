@@ -2,7 +2,7 @@
   "id": "make-parts-now",
   "name": "Make Parts Now",
   "description": "Quote and order custom 3D printed and CNC machined parts from your CAD files with Make Parts Now.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "categories": [
     "productivity"
   ],
