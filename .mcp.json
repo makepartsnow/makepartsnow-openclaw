@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "make-parts-now": {
+      "url": "https://makepartsnow.com/mcp/assistant?client=openclaw",
+      "transport": "streamable-http"
+    }
+  }
+}
