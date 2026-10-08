@@ -8,7 +8,7 @@ On ClawHub: `@makepartsnow/make-parts-now`.
 openclaw plugins install clawhub:@makepartsnow/make-parts-now
 ```
 
-Tested with OpenClaw 2026.9.9. Start a new session after installing.
+OpenClaw asks you to approve what the plugin adds: one skill and one MCP server, no code. If the install stops with "requires capability consent", run it again with `--accept-capabilities`. Tested with OpenClaw 2026.9.9. Start a new session after installing.
 
 ## What it does
 
