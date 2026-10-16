@@ -36,7 +36,7 @@ This package is configuration only: no code runs on your machine.
 | `package.json` | Package name and version only (no scripts or dependencies) |
 | `assets/icon.png` | Icon |
 
-The plugin connects only to makepartsnow.com. `?client=openclaw` just labels the requests as coming from OpenClaw. The tools appear as `make-parts-now__quote_part` and so on. OpenClaw's `coding` and `messaging` tool profiles include them; with another profile or an allowlist, allow `bundle-mcp` or the tool names.
+The plugin connects only to makepartsnow.com. `?client=openclaw` tells Make Parts Now the requests come from OpenClaw. Because OpenClaw runs on your machine, the files you upload are also tied to your network address: their `part_id` and `quote_id` work only from that address, so nobody else can use them. If your address changes during a conversation, upload the file again. The tools appear as `make-parts-now__quote_part` and so on. OpenClaw's `coding` and `messaging` tool profiles include them; with another profile or an allowlist, allow `bundle-mcp` or the tool names.
 
 ## Your files
 
